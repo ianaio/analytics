@@ -34,63 +34,22 @@ const config = {
         src: 'img/ianaio-logo.webp',
       },
       items: [
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/analysis', label: 'Analysis', position: 'left'},
+//        {to: '/analysis', label: 'Analysis', position: 'left'},
         {
           type: 'dropdown',
           label: 'iana.io',
           position: 'right',
           items: [
             {
-              label: 'gloo',
-              href: 'https://iana.io/gloo',
+              label: 'Home',
+              href: 'https://www.iana.io/',
             },
-            {
-              label: 'dialogs',
-              href: 'https://iana.io/gloo-dialogs/',
-            },
-            {
-              label: 'events',
-              href: 'https://iana.io/gloo-events/',
-            },
-            {
-              label: 'file',
-              href: 'https://iana.io/gloo-file/',
-            },
-            {
-              label: 'history',
-              href: 'https://iana.io/gloo-history/',
-            },
-            {
-              label: 'net',
-              href: 'https://iana.io/gloo-net/',
-            },
-            {
-              label: 'render',
-              href: 'https://iana.io/gloo-render/',
-            },
-            {
-              label: 'storage',
-              href: 'https://iana.io/gloo-storage/',
-            },
-            {
-              label: 'timers',
-              href: 'https://iana.io/gloo-timers/',
-            },
-            {
-              label: 'utils',
-              href: 'https://iana.io/gloo-utils/',
-            },
-            {
-              label: 'worker',
-              href: 'https://iana.io/gloo-worker/',
-            }
           ],
         },
         {
-          href: 'https://www.iana.io',
-          label: 'Back to www.iana.io',
-          position: 'right',
+          href: 'https://analytics.iana.io/docs/getting-started',
+          label: 'Analysis',
+          position: 'left',
         },
       ],
     },
@@ -102,7 +61,7 @@ const config = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discord.gg/DFgkjhkh898', // #gloo in Yew server
+              href: 'https://discord.gg/DFgBACbDVG', // #gloo in Yew server
             },
           ],
         },
@@ -114,12 +73,8 @@ const config = {
               to: '/blog',
             },
             {
-              label: 'Analysis',
-              to: '/analysis',
-            },
-            {
-              label: 'IANA SYSTEM',
-              href: 'https://github.com/ianaio/analytics',
+              label: 'GitHub',
+              href: 'https://github.com/rustwasm/gloo',
             },
           ],
         },
