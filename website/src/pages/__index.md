@@ -1,4 +1,4 @@
-Gloo is a toolkit for building web applications and libraries with Rust and Wasm, composed of
+IANA SYSTEMS is a toolkit for building web applications and libraries with Rust and Wasm, composed of
 modular crates. [Gloo crates](https://github.com/rustwasm/gloo/tree/master/crates)
 include example code, both in their respective `example` folders, and commented in their code, as well
 as [API documentation](https://docs.rs/gloo/).
