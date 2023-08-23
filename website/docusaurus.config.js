@@ -34,7 +34,13 @@ const config = {
         src: 'img/ianaio-logo.webp',
       },
       items: [
-//        {to: '/analysis', label: 'Analysis', position: 'left'},
+        //{to: '/analysis', label: 'Analysis', position: 'left'},
+        {
+          href: 'https://analytics.iana.io/docs/getting-started',
+          label: 'Analysis',
+          position: 'left',
+        },
+	//{to: '/blog', label: 'Analysis', position: 'left'},
         {
           type: 'dropdown',
           label: 'iana.io',
@@ -46,11 +52,7 @@ const config = {
             },
           ],
         },
-        {
-          href: 'https://analytics.iana.io/docs/getting-started',
-          label: 'Analysis',
-          position: 'left',
-        },
+        {to: '/blog', label: 'Blog', position: 'left'},
       ],
     },
     footer: {
@@ -61,21 +63,22 @@ const config = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discord.gg/DFgBACbDVG', // #gloo in Yew server
+              href: 'https://discord.gg/AAAAAAA', // #gloo in Yew server
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Contact',
           items: [
+            {
+	      label: 'EMAIL: analytics(at)iana.io',
+              href: 'https://analytics.iana.io',
+            },
             {
               label: 'Blog',
               to: '/blog',
             },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/rustwasm/gloo',
-            },
+
           ],
         },
       ],
